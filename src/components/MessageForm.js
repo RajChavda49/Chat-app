@@ -36,6 +36,7 @@ const MessageForm = (props) => {
         value={value}
         onChange={handleChange}
         onSubmit={handleSubmit}
+        autoFocus
       />
       <label htmlFor="upload-button">
         <span className="image-button">
